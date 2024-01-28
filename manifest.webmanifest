@@ -2,14 +2,14 @@
   "name": "Rain with Music",
   "short_name": "Rain with Music",
   "description": "Rain with Music PWA",
-  "scope": "/rain_yt/",
-  "start_url": "/rain_yt/",
+  "scope": "/",
+  "start_url": "https://rain-yt.vercel.app/",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "display": "standalone", 
   "icons": [
       {
-        "src": "/rain_yt/favicon.png",
+        "src": "/favicon.png",
         "type": "image/png",
         "sizes": "192x192"
       }
