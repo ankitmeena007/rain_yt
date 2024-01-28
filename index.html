@@ -2,15 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Rain with music</title>
     
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico">
     <script src="index.js"></script>
+
+    
+    <link rel="canonical" href="https://ankitmeena007.github.io/rain_yt/" />
+    <link rel="manifest" href="/rain_yt/manifest.webmanifest">
 </head>
 
 <body>
+
+
+    <!--remove --> 
+    <script>
+        if (navigator.serviceWorker) {
+          navigator.serviceWorker.register (
+            '/rain_yt/sw.js',
+            {scope: '/rain_yt/'}
+          )
+        }
+    </script>
+    <!--remove --> 
     <section>
         
 
