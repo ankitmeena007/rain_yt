@@ -58,11 +58,11 @@ section img
 }
 
 .iframeContent{
-    margin:5% 20%;
+    margin:5% 15%;
     position: relative;
     top:0%;
     left:0%;
-    width:60%;
+    width:70%;
     height:37.5rem;
     border-radius: 2%;
     border-style:groove;
