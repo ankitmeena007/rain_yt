@@ -1,4 +1,4 @@
-# Youtube playlist player from playlist id.
+# Youtube playlist player, plays from playlist id.
 ## Has a background raindrop effect (Forked from: [@SardineFish](https://github.com/SardineFish/raindrop-fx/tree/master))
 
 Live Demo: [Here](https://rain-yt.vercel.app/)
