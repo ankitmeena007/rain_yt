@@ -5,6 +5,8 @@ Live Demo: [Here](https://rain-yt.vercel.app/)
 
 ![image](https://github.com/ankitmeena007/rain_yt/assets/63893740/1f6e089f-9308-4d7f-b903-3d7f4f8e76b1)
 
+![image](https://github.com/ankitmeena007/rain_yt/assets/63893740/37c7025c-cef1-4443-b555-c660aa6205a0)
+
 
 Background image: (https://i.imgur.com/YwQ85yC.jpeg)
 
