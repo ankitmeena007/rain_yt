@@ -58,6 +58,7 @@ section img
 }
 
 .iframeContent{
+    border-width: thick;
     margin:5% 15%;
     position: relative;
     top:0%;
@@ -167,7 +168,7 @@ display: none;
     
     }
     .iframeContent{
-        border-radius: 4%;
+        border-radius: 5%;
         margin:50% 5%;
         position: relative;
         top:0%;
