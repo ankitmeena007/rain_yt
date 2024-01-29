@@ -33,10 +33,26 @@
 
 
         <div class="iframeContainer">
-            <iframe  class="iframeContent" src="https://www.youtube.com/embed/videoseries?si=vpMvKSHRp4MlEmcr&amp;list=PLjE24dapzlxRl42ELixBrgrIkxo56krTq&autoplay=1&showinfo=0&loop=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+            <div class="search">
+
+          
+                <a href="" id=lnk></a> <br> 
+                
+                <input type='text' id='userInput' class='form-control' value='' placeholder="Enter public playlist ID (after last = sign)" />
+                <input type='button' id='myBtn' class='btn-outline-secondary' onclick='changeText2()' value='Go!' />
+            </div>
             
+            <iframe  id="mainframe" class="iframeContent" src="https://www.youtube.com/embed/videoseries?si=vpMvKSHRp4MlEmcr&amp;list=PLjE24dapzlxRl42ELixBrgrIkxo56krTq&autoplay=1&showinfo=0&loop=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+
             <h1 class="credit">Rain effect <a href="https://github.com/SardineFish/raindrop-fx/tree/master" target="_blank">credits</a></h1>
+
         </div>
+        
+        
+
+    
+
         
 
 
@@ -44,6 +60,38 @@
             <canvas id="canvas"></canvas>
         </div>
         <script src="script.js"></script>
+        
+        
+
+    
+
+        <script type="text/javascript">
+            function changeText2() {
+            
+            var userInput = document.getElementById('userInput').value;
+            var lnk = document.getElementById('lnk');
+                
+
+            
+            var url= "https://www.youtube.com/embed/videoseries?si=vpMvKSHRp4MlEmcr&amp;list="+userInput+"&autoplay=1&showinfo=0&loop=1&rel=0" ;
+            document.getElementById("mainframe").src=url;
+            }
+
+            var input = document.getElementById("userInput");
+            input.addEventListener("keyup", function(event) {
+            if (event.keyCode === 13) {
+                event.preventDefault();
+                document.getElementById("myBtn").click();
+            }
+            });
+
+            var input = document.querySelectorAll('input');
+            for(i=0; i<input.length; i++){
+            input[i].setAttribute('size',input[i].getAttribute('placeholder').length);
+            }
+            
+        </script>
     </section>
+    
 </body>
 </html>

@@ -98,6 +98,63 @@ a
 
 
 
+input[type="text"], textarea {
+    
+
+    /* background-color :#FDB827 ; */
+  
+    /* border-color:currentColor; */
+    background-color:transparent;
+    /* font-size: 1.2rem; */
+    line-height: 1.5rem;
+    text-align: center;
+  
+  }
+  
+  input[type="text"]::placeholder{
+    text-align: center;
+    color:#40514E;
+  }
+  
+  input[type="text"]:-ms-input-placeholder{
+    text-align: center;
+  }
+  
+  
+  .search{
+    width:100%;
+    text-align: center;
+    
+
+    z-index: 2000;
+    position:absolute;
+    top:0%;
+    
+    /* we could also use
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    */
+    text-align: center; /* centers everything that
+    doesn't have a width specified */
+    font-family: 'Space Grotesk', sans-serif;
+    color:#40514E;
+    font-size: 0.8rem;
+    /* background-color: white; */
+    overflow:hidden;
+  
+  }
+  
+  .inp{
+    background-color:transparent;
+  }
+  #myBtn{
+    display: none;
+  }
+
+    
+
 @media (max-width:600px){
     .iframeContainer{
         
