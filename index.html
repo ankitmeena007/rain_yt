@@ -72,9 +72,13 @@
             var lnk = document.getElementById('lnk');
 
             //    
-            var url = "https://www.youtube.com/embed/videoseries?si=vpMvKSHRp4MlEmcr&amp;list=PLjE24dapzlxRl42ELixBrgrIkxo56krTq&autoplay=1&showinfo=0&loop=1&rel=0";
+            var url
                 
-            if (userInput.length && userInput.length === 11) {
+            if (!userInput.length){
+                url = "https://www.youtube.com/embed/videoseries?si=vpMvKSHRp4MlEmcr&amp;list=PLjE24dapzlxRl42ELixBrgrIkxo56krTq&autoplay=1&showinfo=0&loop=1&rel=0";
+            }
+                
+            else if (userInput.length === 11) {
                 url = "https://www.youtube.com/embed/"+ userInput +"?si=CB4a528bXk0qmyPT"+"&autoplay=1&showinfo=0&loop=1&rel=0";
             }
 
