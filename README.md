@@ -1,5 +1,9 @@
 # Youtube playlist player, plays from playlist id.
 
+> [!NOTE]
+> Update: Now accepts individual video ID, full video or playlist links too
+
+
 ## Has a background raindrop effect (Forked from: [@SardineFish](https://github.com/SardineFish/raindrop-fx/tree/master))
 
 Live Demo: [Here](https://rain-yt.vercel.app/)
@@ -9,6 +13,4 @@ Live Demo: [Here](https://rain-yt.vercel.app/)
 
 Background image: (https://i.imgur.com/YwQ85yC.jpeg)
 
-> [!NOTE]
-> Update: Now accepts individual video ID, full video or playlist links too
 
