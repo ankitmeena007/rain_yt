@@ -2,6 +2,8 @@
 
 > [!NOTE]
 > Now accepts individual video ID, full video or playlist links too
+
+> [!NOTE]
 > Available as a PWA
 
 
