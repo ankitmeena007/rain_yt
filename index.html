@@ -82,6 +82,10 @@
                 url = "https://www.youtube.com/embed/"+ userInput +"?si=CB4a528bXk0qmyPT"+"&autoplay=1&showinfo=0&loop=1&rel=0";
             }
 
+            else if (userInput.length > 34) {
+                url = "https://www.youtube.com/embed/"+ userInput.split('=')[-1] +"?si=CB4a528bXk0qmyPT"+"&autoplay=1&showinfo=0&loop=1&rel=0";
+            }
+
             else {
                 url= "https://www.youtube.com/embed/videoseries?si=vpMvKSHRp4MlEmcr&amp;list="+userInput+"&autoplay=1&showinfo=0&loop=1&rel=0" ;
             }
