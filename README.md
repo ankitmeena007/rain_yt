@@ -9,5 +9,5 @@ Live Demo: [Here](https://rain-yt.vercel.app/)
 
 Background image: (https://i.imgur.com/YwQ85yC.jpeg)
 
-# Update: Now accepts individual video ID, full video or playlist links too
+## Update: Now accepts individual video ID, full video or playlist links too
 
