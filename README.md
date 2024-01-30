@@ -3,6 +3,8 @@
 > [!NOTE]
 > Now accepts individual video ID, full video or playlist links too
 
+> Available as a PWA
+
 
 ## Has a background raindrop effect (Forked from: [@SardineFish](https://github.com/SardineFish/raindrop-fx/tree/master))
 
