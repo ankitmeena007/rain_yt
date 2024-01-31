@@ -67,7 +67,10 @@
 
         <script type="text/javascript">
             function changeText2() {
-            
+
+
+            const rndInt = Math.floor(Math.random() * 200) + 1;
+                
             var userInput = document.getElementById('userInput').value;
             var lnk = document.getElementById('lnk');
 
@@ -75,7 +78,9 @@
             var url
                 
             if (!userInput.length){
-                url = "https://www.youtube.com/embed/videoseries?si=vpMvKSHRp4MlEmcr&amp;list=PLjE24dapzlxRl42ELixBrgrIkxo56krTq&autoplay=1&showinfo=0&loop=1&rel=0";
+                url = "https://www.youtube.com/embed/?list=PLjE24dapzlxRl42ELixBrgrIkxo56krTq&index=" + rndInt.toString() + "&autoplay=1&showinfo=0&loop=1&rel=0";
+                
+                // url = "https://www.youtube.com/embed/videoseries?si=vpMvKSHRp4MlEmcr&amp;list=PLjE24dapzlxRl42ELixBrgrIkxo56krTq&autoplay=1&showinfo=0&loop=1&rel=0";
             }
                 
             else if (userInput.length === 11) {
@@ -87,12 +92,14 @@
                     url = "https://www.youtube.com/embed/"+ userInput.split('=').at(-1) +"?si=CB4a528bXk0qmyPT"+"&autoplay=1&showinfo=0&loop=1&rel=0";
                 }
                 else {
-                    url= "https://www.youtube.com/embed/videoseries?si=vpMvKSHRp4MlEmcr&amp;list="+userInput.split('=').at(-1)+"&autoplay=1&showinfo=0&loop=1&rel=0" ;
+                    url = "https://www.youtube.com/embed/?list=" + userInput.split('=').at(-1) + "&index=" + rndInt.toString() + "&autoplay=1&showinfo=0&loop=1&rel=0";
+                    // url= "https://www.youtube.com/embed/videoseries?si=vpMvKSHRp4MlEmcr&amp;list="+userInput.split('=').at(-1)+"&autoplay=1&showinfo=0&loop=1&rel=0" ;
                 }
             }
 
             else {
-                url= "https://www.youtube.com/embed/videoseries?si=vpMvKSHRp4MlEmcr&amp;list="+userInput+"&autoplay=1&showinfo=0&loop=1&rel=0" ;
+                url = "https://www.youtube.com/embed/?list=" + userInput + "&index=" + rndInt.toString() + "&autoplay=1&showinfo=0&loop=1&rel=0";
+                // url= "https://www.youtube.com/embed/videoseries?si=vpMvKSHRp4MlEmcr&amp;list="+userInput+"&autoplay=1&showinfo=0&loop=1&rel=0" ;
             }
                 
             //
