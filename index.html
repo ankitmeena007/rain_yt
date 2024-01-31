@@ -42,18 +42,19 @@
                 <input type='button' id='myBtn' class='btn-outline-secondary' onclick='changeText2()' value='Go!' />
             </div>
 
-<!--              -->
+
+            
+            
+            <iframe  id="mainframe" class="iframeContent" src="https://www.youtube.com/embed/videoseries?si=vpMvKSHRp4MlEmcr&amp;list=PLjE24dapzlxRl42ELixBrgrIkxo56krTq&autoplay=1&showinfo=0&loop=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+            <!--              -->
             <script type="text/javascript">
                 const rndInt0 = Math.floor(Math.random() * 200) + 1;
                 url0 = "https://www.youtube.com/embed/?list=PLjE24dapzlxRl42ELixBrgrIkxo56krTq&index=" + rndInt.toString() + "&autoplay=1&showinfo=0&loop=1&rel=0";
+                document.getElementById("mainframe").src=url;
+            }
             </script>
-            <iframe  id="mainframe" class="iframeContent" src=url0 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 <!--  -->
-            
-            
-<!--             <iframe  id="mainframe" class="iframeContent" src="https://www.youtube.com/embed/videoseries?si=vpMvKSHRp4MlEmcr&amp;list=PLjE24dapzlxRl42ELixBrgrIkxo56krTq&autoplay=1&showinfo=0&loop=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
- -->
-
             <h1 class="credit">Rain effect <a href="https://github.com/SardineFish/raindrop-fx/tree/master" target="_blank">credits</a></h1>
 
         </div>
